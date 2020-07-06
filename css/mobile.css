@@ -1,0 +1,24 @@
+@media (max-width: 600px) {
+    .group-product {
+        display: grid;
+        height: auto;
+        padding: 10% ;
+    }
+
+    .products {
+        margin-top: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .container h1{
+        text-align: center;
+    }
+    
+}
